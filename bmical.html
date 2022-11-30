@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Devan Martinez">
+    <title>Group 11's WebPage | BMI CALCULATOR</title>
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="logo">
+            <a href="index.html"
+              ><h1><span>F</span> O <span>C</h1></a
+            >
+          </div>
+          <div class="nav-list">
+            <div class="hamburger"><div class="bar"></div></div>
+            <ul>
+              <li><a href="index.html" data-after="Home">Home</a></li>
+              <li><a href="Course.html" data-after="Course">Course</a></li>
+              <li><a href="project.html" data-after="Project">Project</a></li>
+              <li><a href="Concepts.html" data-after="Concepts">Concepts</a></li>
+              <li><a href="Databases.html" data-after="Databases">Databases</a></li>
+              <li><a href="Documentation.html" data-after="Documentation">Documentation</a></li>
+              <li><a href="devteam.html" data-after="Dev Team">Dev Team</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header -->
+
+    <!-- BMI Section -->
+    <section id="infos">
+      <div class="infos container">
+        <div class="info-top">
+          <h1 class="section-title">BMI <span>CALCULATOR</span></h1>
+          <h2>JavaScript in action(BMI CALCULATOR)</h2>
+          <p></p>
+        </div>
+
+        <div class="bmi-cal">
+            <form name="bmiForm">
+              <h1>BMI CALCULATOR</h1>
+              <hr>
+              <label for="">Your Weight (Ibs)</label>
+              <input type="text" name="weight" placeholder="Enter your weight" size="10" class="weight"><br />
+              <label for="">Your Height (Inches)</label>
+              <input type="text" name="height" placeholder="Enter your height" size="10" class="height"><br />
+              <button type="button" value="Calculate BMI" class="cta" onClick="calculateBmi()">Calculate BMI</button><br />
+              <label for="" class="name">Your BMI</label>
+              <input type="text" name="bmi" size="10"><br />
+              <label for="" class="name">This Means</label>
+              <input type="text" name="meaning" size="25"><br />
+              <button type="reset" class="cta" value="Reset" />Reset</button>
+              </form>
+            </div>
+          </div>
+    </section>
+    <!-- End BMI Section -->
+  
+
+<!-- Footer -->
+<section id="footer">
+  <div class="footer container">
+    <div class="logo"><h1><span>G</span>roup <span>11</span></h1></div>
+    <p>Group 11's : Fundamentals of Computing Web Page, Copyright &copy; <script>document.write(new Date().getFullYear());</script></p>
+  </div>
+  
+</section>
+<!-- End Footer -->

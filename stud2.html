@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Devan Martinez">
+    <title>Group 11's WebPage | BMI CALCULATOR</title>
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="logo">
+            <a href="index.html"
+              ><h1><span>F</span> O <span>C</h1></a
+            >
+          </div>
+          <div class="nav-list">
+            <div class="hamburger"><div class="bar"></div></div>
+            <ul>
+              <li><a href="index.html" data-after="Home">Home</a></li>
+              <li><a href="Course.html" data-after="Course">Course</a></li>
+              <li><a href="project.html" data-after="Project">Project</a></li>
+              <li><a href="Concepts.html" data-after="Concepts">Concepts</a></li>
+              <li><a href="Databases.html" data-after="Databases">Databases</a></li>
+              <li><a href="Documentation.html" data-after="Documentation">Documentation</a></li>
+              <li><a href="devteam.html" data-after="Dev Team">Dev Team</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header -->
+
+    <!-- Hex Section -->
+    <section id="infos">
+      <div class="infos container">
+        <div class="info-top">
+          <h1 class="section-title">Hex to<span> Binary</span></h1>
+          <h2>JavaScript in action(Hex to binary)</h2>
+          <p></p>
+        </div>
+        <form>
+        <div id="undctable">
+        <table cellpadding="5">
+          <h3 class="top">HEX TO BINARY</h3>
+          <tr>
+            <td class="bigtext"><h2>From: </h2></td>		
+            <td ><input type="text" name="ucfrom" class="ucdcinput" id="ucfrom" onKeyUp="ucDCUpdateResult(0);" autofocus></td>
+            <td class="bigtext" ><b><h3>Hexadecimal</h3></b></td>
+          </tr>
+          <br>
+          <tr>
+            <td class="bigtext"><h2>To: </h2></td>		
+            <td ><input type="text" name="ucto" class="ucdcinput" id="ucto" onKeyUp="ucDCUpdateResult(1);"></td>
+            <td class="bigtext" ><b><h3>Binary</h3></b></td>
+          </tr>
+          <tr>
+              <td>&nbsp;</td><td>
+                <input type="hidden" name="ucfromunit" id="ucfromunit" value="hexadecimal [3:16]">
+                <input type="hidden" name="uctounit" id="uctounit" value="binary [3:2]">		
+                <br>	
+                <button type="submit" value="Convert" class="cta" onclick="ucDCUpdateResult(processingType);return false;"><h4>Convert</h4></button> &nbsp;
+                <button type="reset" value="Clear" class="cta"><h4>Clear</h4></button>
+            </td>
+        </table>
+        <div id="ucresult" class="ucresulttext"></div>
+        </div>
+        </div>
+      </div>
+        </form>
+        <script>noValidation=1;var processingType = 0;</script>
+    <!-- End Hex Section -->
+
+    <!--UNICODE section
+    <section id="infos-unicode">
+      <div class="infos container">
+        <div class="info-top">
+          <h1 class="section-title">Uni<span>CODE</span></h1>
+          <h2>JavaScript in action(UNICODE)</h2>
+          <p>.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+         <img src="./img/uni1.jpg" alt="img" width="100%" />
+        </div>
+
+        <div class="column">
+         <img src="./img/uni3.jpg" alt="img" width="100%" />
+        </div>
+
+        <div class="column">
+         <img src="./img/uni4.jpg" alt="img" width="100%" />
+        </div>
+    </div>
+    <div class="unicode">
+      <form>
+      <center>
+      <h2>Please input UNICODE number from above:</h2>
+      <br>
+      
+      <input id="numb" type="text">
+      
+      <button type="button" class="cta" onclick="myFunction()">Submit</button>
+      <br>
+       
+        <tr>
+          <th><center><p id="demo"></center></p></th>
+        </tr>
+        
+      </center>
+    </form>
+  </div>
+  </>
+  <br>
+-->
+    
+    <!--End UNICODE section-->
+
+<!-- Footer -->
+<section id="footer">
+  <div class="footer container">
+    <div class="logo"><h1><span>G</span>roup <span>11</span></h1></div>
+    <p>Group 11's : Fundamentals of Computing Web Page, Copyright &copy; <script>document.write(new Date().getFullYear());</script></p>
+  </div>
+  
+</section>
+<!-- End Footer -->
